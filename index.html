@@ -16,10 +16,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
-  </head>
-    <!-- Body -->
-
 </head>
+<!-- Body -->
+<body>
 <!-- NAVBAR -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -41,7 +40,6 @@
     </div>
 </nav>
 
-<!-- Body -->
 <div class="container">
     <div class="row">
 
@@ -86,36 +84,31 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                     <a class="navbar-brand " href="#">Proposal Title</a>
                         <div class="collapse navbar-collapse navHeaderCollapse">
-                            <ul class= "nav navbar-nav">
-                                 <li>
-                                     <form action="#">
-                                         <button class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-plus"></span><a id="popover" data-trigger="hover"></a></button>
-                                     </form>
-                                </li>
+                            <ul class= "nav navbar-nav navbar-right">
                                        <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Info <span class="caret"></span></a>
                               <ul class="dropdown-menu">
                                   <li>
-                                     <h5>Proposal: <a>Kole's Propsal</a></h5>
+                                     <h5 class="proposalName">Proposal: <a>Kole's Propsal</a></h5>
                                   </li>
                                   <li>
-                                     <h5>Revision: <a>Ver 1.0</a></h5>
+                                     <h5 id="revision">Revision: <a>Ver 1.0</a></h5>
                                   </li>
                                   <li>
-                                        <h5>Date: <a>3/24/14</a></h5>
+                                        <h5 id="dateCreated">Date: <a>3/24/14</a></h5>
                                   </li>
                                   <li>
                                         <a href="#"><span class="glyphicon glyphicon-save"></span> Shortcut</a>
                                   </li>
-
                               </ul>
                         </li>
                         <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Client <span class="caret"></span></a>
                               <ul class="dropdown-menu">
                                  <li>
-                                        <h5>Name: <a>test client</a></h5>
+                                        <h5 id="clientName">Name: <a>test client</a></h5>
                                   </li>
                               </ul>
                         </li>
@@ -123,26 +116,13 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vendor <span class="caret"></span></a>
                               <ul class="dropdown-menu">
                                   <li>
-                                        <a>Solspace, Inc</a>
-                                  </li>
-                                  <li>
-                                        <a>P.O. Box 7282</a>
-                                  </li>
-                                  <li>
-                                        <a>Santa Cruz, CA. 95061</a>
+                                        <a id="address1">Solspace, Inc</a>
+                                        <a id="address2">P.O. Box 7282</a>
+                                        <a id="address3">Santa Cruz, CA. 95061</a>
                                   </li>
                               </ul>
                         </li>
                             </ul>
-                            <form class="navbar-form navbar-left" role="search">
-                                <div class="form-group">
-                                    <input type="text" class="form-control input-large" placeholder="Search Proposals">
-                                </div>
-                                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-                            </form>
-                            <ul class="nav navbar-nav navbar-right">
-                 
-                     </ul>
                         </div>
                  </div>
             </nav>
